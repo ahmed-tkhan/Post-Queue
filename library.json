@@ -1,0 +1,71 @@
+{
+  "name": "PostQueue",
+  "version": "1.0.0",
+  "description": "ESP32 library for queuing and sending HTTP POST requests with JSON payloads using FreeRTOS",
+  "keywords": [
+    "esp32",
+    "http",
+    "post",
+    "queue",
+    "json",
+    "ssl",
+    "tls",
+    "https",
+    "freertos",
+    "iot",
+    "rest",
+    "api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmed-tkhan/Post-Queue.git"
+  },
+  "authors": [
+    {
+      "name": "Ahmed T Khan",
+      "email": "ahmed.tkhan@example.com"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ahmed-tkhan/Post-Queue",
+  "frameworks": [
+    "arduino",
+    "espidf"
+  ],
+  "platforms": [
+    "espressif32"
+  ],
+  "dependencies": [
+    {
+      "name": "ArduinoJson",
+      "version": "^6.21.0"
+    }
+  ],
+  "examples": [
+    {
+      "name": "BasicPostQueue",
+      "base": "examples/BasicPostQueue",
+      "files": [
+        "BasicPostQueue.ino"
+      ]
+    },
+    {
+      "name": "AdvancedPostQueue",
+      "base": "examples/AdvancedPostQueue",
+      "files": [
+        "AdvancedPostQueue.ino"
+      ]
+    }
+  ],
+  "export": {
+    "include": [
+      "src/*",
+      "examples/*",
+      "library.json",
+      "library.properties",
+      "keywords.txt",
+      "README.md",
+      "LICENSE"
+    ]
+  }
+}
