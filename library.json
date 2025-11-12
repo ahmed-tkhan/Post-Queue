@@ -55,6 +55,13 @@
       "files": [
         "AdvancedPostQueue.ino"
       ]
+    },
+    {
+      "name": "IoTSensorData",
+      "base": "examples/IoTSensorData",
+      "files": [
+        "IoTSensorData.ino"
+      ]
     }
   ],
   "export": {
