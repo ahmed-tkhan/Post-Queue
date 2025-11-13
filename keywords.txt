@@ -1,0 +1,38 @@
+#######################################
+# Syntax Coloring Map For PostQueue
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+PostQueue	KEYWORD1
+PostItem	KEYWORD1
+PostCallback	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+end	KEYWORD2
+post	KEYWORD2
+getQueueSize	KEYWORD2
+isEmpty	KEYWORD2
+isFull	KEYWORD2
+clear	KEYWORD2
+setTimeout	KEYWORD2
+setMaxRedirects	KEYWORD2
+setCallback	KEYWORD2
+setSSLVerification	KEYWORD2
+getStats	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+DEFAULT_MAX_QUEUE_SIZE	LITERAL1
+DEFAULT_HTTP_TIMEOUT	LITERAL1
+DEFAULT_MAX_REDIRECTS	LITERAL1
+DEFAULT_TASK_STACK_SIZE	LITERAL1
+DEFAULT_TASK_PRIORITY	LITERAL1
